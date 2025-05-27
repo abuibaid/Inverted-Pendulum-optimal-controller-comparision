@@ -74,7 +74,7 @@ Ensure the following software is installed on your system:
    cd Inverted-Pendulum-optimal-controller-comparision/cart_pole_control/LQR
    python closed_loop.py
    ```
-  for linear, nonlinear and learning MPC:
+   for linear, nonlinear and learning MPC:
 
    ```bash
    cd Inverted-Pendulum-optimal-controller-comparision/cart_pole_control/MPC
