@@ -50,11 +50,7 @@ Ensure the following software is installed on your system:
 
 3. **Install Python Dependencies:**
 
-   It is recommended to use a virtual environment:
-
    ```bash
-   python3 -m venv venv
-   source venv/bin/activate
    pip install casadi hilo-mpc control
    ```
 
