@@ -1,7 +1,7 @@
 
 # Inverted Pendulum Optimal Controller Comparison
 
-This repository presents a comparative study of four optimal control strategies applied to an inverted pendulum system simulated in Gazebo. The controllers evaluated include:
+This repository presents a comparative study of four optimal control strategies applied to an inverted pendulum system simulated in Gazebo by editor called [Robot Mania](https://www.youtube.com/@robotmania8896). The controllers evaluated include:
 
 - **Linear Quadratic Regulator (LQR)**
 - **Linear Model Predictive Control (LMPC)**
