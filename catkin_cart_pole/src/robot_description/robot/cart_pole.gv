@@ -1,0 +1,20 @@
+digraph G {
+node [shape=box];
+"world" [label="world"];
+"base_footprint" [label="base_footprint"];
+"base_link" [label="base_link"];
+"cart_link" [label="cart_link"];
+"pole_link" [label="pole_link"];
+"tip_link" [label="tip_link"];
+node [shape=ellipse, color=blue, fontcolor=blue];
+"world" -> "world_joint" [label="xyz: 0 0 0 \nrpy: 0 -0 0"]
+"world_joint" -> "base_footprint"
+"base_footprint" -> "base_link_joint" [label="xyz: 0 0 0 \nrpy: 0 -0 0"]
+"base_link_joint" -> "base_link"
+"base_link" -> "cart_joint" [label="xyz: 0 0 0 \nrpy: 0 -0 0"]
+"cart_joint" -> "cart_link"
+"cart_link" -> "pole_joint" [label="xyz: 0 0.1 0 \nrpy: 3.14159 -8.64102e-08 3.14159"]
+"pole_joint" -> "pole_link"
+"pole_link" -> "tip_joint" [label="xyz: 0 0 -1 \nrpy: 0 -0 0"]
+"tip_joint" -> "tip_link"
+}
