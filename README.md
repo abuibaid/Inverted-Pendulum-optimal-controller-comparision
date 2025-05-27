@@ -80,4 +80,4 @@ Ensure the following software is installed on your system:
    cd Inverted-Pendulum-optimal-controller-comparision/cart_pole_control/MPC
    python closed_loop.py
    ```
-   # don't forget to comment out what controller that you don't need in the closed_loop.py file
+   - don't forget to comment out what controller that you don't need in the closed_loop.py file
